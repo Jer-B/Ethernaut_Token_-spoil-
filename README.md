@@ -40,7 +40,7 @@ await contract.transfer("0x70147a35F3f84F7D4d7c8bA5a89648e3cFBDAA5C", 21)
 ```bash
 x = await contract.balanceOf("0xe071EeD2EB7CA3514e40d81533046aa90D12f768")
 
-x.tostring()
+x.toString()
 ```
 
 As you can see the `transfer()` function did not sent `21`　Tokens to you, but all of it。↓
@@ -102,7 +102,7 @@ await contract.transfer("0x70147a35F3f84F7D4d7c8bA5a89648e3cFBDAA5C", 21)
 ```bash
 x = await contract.balanceOf("0xe071EeD2EB7CA3514e40d81533046aa90D12f768")
 
-x.tostring()
+x.toString()
 ```
 
 `transfer()`の関数をコールした時に`21　トークン`が転送されなかった。全てが自分に送られた。↓
