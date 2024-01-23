@@ -14,7 +14,7 @@ Here are the writeups of my solutions levels I cleared.
 - If you are not confortable yet with ABI, then it is a great way to learn about it and how to call any contract by external calls.
 - In higher difficulty levels, you will need to wrote smart contracts and interfaces to hack some smart contract externally for clearing levels.
 
-## Ethernaut 4. Token
+## Ethernaut 5. Token
 
 The goal is get all ERC20 Tokens of the contract transfered to our balance
 - The trick in that contract is that it is done under `Solidity 0.6.0`. under `0.8.0` we need to use a library called `SafeMath` for dealing with numbers.
@@ -74,7 +74,7 @@ Level is completed.
 - まだABIに慣れていない場合、それを使用して任意のコントラクトを外部呼び出しで呼び出す方法について学び、理解するのに最適な方法です。
 - より高難度のレベルでは、スマートコントラクトとインターフェースを作成して、いくつかのスマートコントラクトを外部からハッキングするために解レベルをクリアする必要があります。
 
-## Ethernaut 4. Token
+## Ethernaut 5. Token
 
 目標は、コントラクトのすべてのERC20トークンを手に入れることです。
 - このコントラクトのミソは、`Solidity 0.6.0` の下で行われたことです。`0.8.0` では、数値の処理に `SafeMath` と呼ばれるライブラリを使用する必要があります。
